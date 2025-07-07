@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: finance-app
+    env: node
+    branch: main
+    buildCommand: npm install && npm run build:css
+    startCommand: npm start
+    plan: free
+    autoDeploy: true
