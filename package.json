@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "A simple finance management app",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "build:css": "npx tailwindcss -i ./public/css/input.css -o ./public/css/styles.css --minify",
-    "watch:css": "npx tailwindcss -i ./public/css/input.css -o ./public/css/styles.css --watch",
-    "update-browserslist": "npx update-browserslist-db@latest"
-  },
+"scripts": {
+  "start": "node server.js",
+  "build:css": "npx tailwindcss -i ./public/css/input.css -o ./public/css/styles.css --minify",
+  "watch:css": "npx tailwindcss -i ./public/css/input.css -o ./public/css/styles.css --watch",
+  "update-browserslist": "npx update-browserslist-db@latest"
+},
   "dependencies": {
     "bcrypt": "^5.1.1",
     "express": "^4.21.0",
