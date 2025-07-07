@@ -1,0 +1,24 @@
+{
+  "name": "finance-app",
+  "version": "1.0.0",
+  "description": "A simple finance management app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "npx tailwindcss -i ./public/css/input.css -o ./public/css/styles.css --minify",
+    "watch:css": "npx tailwindcss -i ./public/css/input.css -o ./public/css/styles.css --watch",
+    "update-browserslist": "npx update-browserslist-db@latest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "tailwindcss": "^3.4.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
